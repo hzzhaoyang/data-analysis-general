@@ -1,10 +1,8 @@
-<img src="assets/icon.png" width="64" height="64" alt="观远数据分析通用 Skill 图标" />
+# 数据分析通用 Skill
 
-# 观远数据分析通用 Skill
+**版本：0.0.5**
 
-**版本：0.0.4**
-
-面向经营分析的通用方法体系，将业务问题转化为可核验的数据口径、分析过程和决策依据。支持观远 BI 可信资产与授权通用数据工具，按任务加载相关方法。
+面向经营分析的通用方法体系，将业务问题转化为可核验的数据口径、分析过程和决策依据。支持已授权的可信指标、数据库、文件、API及其他分析工具，按任务加载相关方法。
 
 ## 分析能力
 
@@ -20,13 +18,13 @@
 
 ## 数据来源
 
-遵循用户指定的数据来源与分析范围。有 **guancli** 和相应授权时，优先使用语义匹配的观远 BI 正式指标、页面有效条件、已确认结果及适用指标树。
+遵循用户指定的数据来源与分析范围，优先复用语义匹配、已授权的正式指标、页面有效条件、已确认结果及适用指标树。根据宿主实际具备的工具，接入数据库、CSV/Excel/JSON文件、API或其他数据源。
 
-没有 guancli，或相关资产不能满足分析需求时，可使用用户授权的数据库、CSV/Excel/JSON文件、API和其他分析工具。不同来源执行相同的口径、粒度、期间与完整性校验；明确说明来源切换和不可比条件。
+不同来源执行相同的口径、粒度、期间与完整性校验；明确说明来源切换和不可比条件，不依赖特定平台或专用工具。
 
 ## 使用方式
 
-将本仓库作为一个 Skill 导入支持的宿主，或从 [Releases](https://github.com/hzzhaoyang/decidex-data-analysis/releases) 下载 `decidex-data-analysis-0.0.4.skill.zip`，通过宿主的 Skill 上传入口安装。确认当前会话已启用该 Skill。
+将本仓库作为一个 Skill 导入支持的宿主，或从 [Releases](https://github.com/hzzhaoyang/data-analysis-general/releases) 下载 `data-analysis-general-0.0.5.skill.zip`，通过宿主的 Skill 上传入口安装。确认当前会话已启用该 Skill。
 
 示例问题：
 
@@ -42,14 +40,14 @@
 
 ## 反馈
 
-请通过 [GitHub Issues](https://github.com/hzzhaoyang/decidex-data-analysis/issues) 提交版本、宿主与模型、可分享的脱敏问题、实际与期望行为，以及必要的复现证据。请勿提交凭据、个人信息或未获授权的业务数据。Skill不自动回传使用数据。
+请通过 [GitHub Issues](https://github.com/hzzhaoyang/data-analysis-general/issues) 提交版本、宿主与模型、可分享的脱敏问题、实际与期望行为，以及必要的复现证据。请勿提交凭据、个人信息或未获授权的业务数据。Skill不自动回传使用数据。
 
 ## 许可证
 
 代码、方法文档和配置文件采用 [MIT License](LICENSE)。
 
-**图标不适用 MIT 许可，相关标识权利单独保留。** 图标的适用范围及使用条件见 [许可范围与图标权利](NOTICE.md)。
+本版本不包含第三方品牌图标，也不授予第三方名称或标识使用权。详见 [许可范围与标识权利](NOTICE.md)。
 
 SkillHub 市场限制无扩展名文件，市场包将 `LICENSE` 保存为 `LICENSE.md`，并同步调整许可链接；MIT 许可正文不变。
 
-市场网页预览中的文档链接固定指向本发布版本的 GitHub 文件；安装后优先读取包内同名路径。标准完整包保留相对链接，支持离线使用。
+市场概述中的文档链接指向本发布版本的 GitHub 文件；安装包使用相对路径，支持离线读取。
