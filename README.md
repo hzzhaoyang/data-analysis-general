@@ -1,8 +1,8 @@
-<img src="assets/icon.png" width="64" height="64" alt="观远数据分析图标" />
+<img src="assets/icon.png" width="64" height="64" alt="观远数据分析通用 Skill 图标" />
 
 # 观远数据分析通用 Skill
 
-**版本：0.0.1**
+**版本：0.0.2**
 
 面向经营分析的通用方法体系，将业务问题转化为可核验的数据口径、分析过程和决策依据。支持观远 BI 可信资产与授权通用数据工具，按任务加载相关方法。
 
@@ -26,7 +26,7 @@
 
 ## 使用方式
 
-将本仓库作为一个 Skill 导入支持的宿主，或从 [Releases](https://github.com/hzzhaoyang/decidex-data-analysis/releases) 下载 `decidex-data-analysis-0.0.1.skill.zip`，通过宿主的 Skill 上传入口安装。确认当前会话已启用该 Skill。
+将本仓库作为一个 Skill 导入支持的宿主，或从 [Releases](https://github.com/hzzhaoyang/decidex-data-analysis/releases) 下载 `decidex-data-analysis-0.0.2.skill.zip`，通过宿主的 Skill 上传入口安装。确认当前会话已启用该 Skill。
 
 示例问题：
 
@@ -49,3 +49,5 @@
 代码、方法文档和配置文件采用 [MIT License](LICENSE)。
 
 **图标不适用 MIT 许可，相关标识权利单独保留。** 图标的适用范围及使用条件见 [许可范围与图标权利](NOTICE.md)。
+
+SkillHub 市场限制无扩展名文件，市场包将 `LICENSE` 保存为 `LICENSE.md`，并同步调整许可链接；MIT 许可正文不变。

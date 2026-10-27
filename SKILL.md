@@ -3,7 +3,7 @@ name: decidex-data-analysis
 license: MIT
 description: 观远经营分析方法包：在现有资产与工具之上选择诊断、客户、预测、实验和决策方法，核验前提、执行可用计算并交付有证据的结论。
 metadata:
-  version: "0.0.1"
+  version: "0.0.2"
   edition: "universal"
 ---
 
