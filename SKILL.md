@@ -3,7 +3,7 @@ name: data-analysis-general
 license: MIT
 description: 通用数据分析方法包：在现有资产与工具之上选择诊断、客户、预测、实验和决策方法，核验前提、执行可用计算并交付有证据的结论。
 metadata:
-  version: "0.0.6"
+  version: "0.0.7"
   edition: "universal"
 ---
 
