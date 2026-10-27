@@ -44,4 +44,8 @@
 
 请通过 [GitHub Issues](https://github.com/hzzhaoyang/decidex-data-analysis/issues) 提交版本、宿主与模型、可分享的脱敏问题、实际与期望行为，以及必要的复现证据。请勿提交凭据、个人信息或未获授权的业务数据。Skill不自动回传使用数据。
 
-图标用于本项目展示；标识相关权利由相应权利人保留。
+## 许可证
+
+代码、方法文档和配置文件采用 [MIT License](LICENSE)。
+
+**图标不适用 MIT 许可，相关标识权利单独保留。** 图标的适用范围及使用条件见 [许可范围与图标权利](NOTICE.md)。
