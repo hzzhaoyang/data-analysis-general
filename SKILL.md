@@ -3,11 +3,11 @@ name: data-analysis-general
 license: MIT
 description: 通用数据分析方法包：在现有资产与工具之上选择诊断、客户、预测、实验和决策方法，核验前提、执行可用计算并交付有证据的结论。
 metadata:
-  version: "0.0.5"
+  version: "0.0.6"
   edition: "universal"
 ---
 
-# 数据分析通用 Skill
+# 数据分析助手｜经营诊断·复购预测
 
 根据经营问题选择适用的分析方法。常规查询执行必要的口径与结果校验，参考资料按任务需要加载；独立复核依据任务要求与实际风险开展。
 
